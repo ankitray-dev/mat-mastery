@@ -2,16 +2,16 @@
 
 ![Mat Mastery Logo](https://github.com/ankitray-dev/mat-mastery/blob/main/logo.png)
 
-Mat Mastery is a web application designed to help users master mathematical concepts through interactive quizzes and exercises. Whether you're a student looking to sharpen your skills or someone simply interested in mathematics, Mat Mastery provides a platform to practice and improve.
+
 
 ## Features
 
-- **Interactive Quizzes**: Test your knowledge with a variety of quizzes covering different mathematical topics.
-- **Detailed Feedback**: Receive instant feedback on your answers, including explanations for correct and incorrect responses.
-- **Progress Tracking**: Monitor your progress over time and track your improvement in various mathematical areas.
-- **Customizable Learning**: Choose quizzes based on specific topics or difficulty levels to tailor your learning experience.
-- **Community Interaction**: Engage with other users through discussion forums and share tips and strategies for mastering math concepts.
-
+- **
+- **
+- **
+- **
+- **
+  
 ## Installation
 
 To run Mat Mastery locally, follow these steps:
