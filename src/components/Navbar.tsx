@@ -26,7 +26,7 @@ export default function App() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-3xl font-roboto bg-clip-text text-transparent bg-gradient-to-b from-blue-100 to-blue-400">MatMastery</p>
+          <p className="font-bold text-3xl font-roboto bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-600">MatMastery</p>
         </NavbarBrand>
       </NavbarContent>
 
@@ -95,12 +95,32 @@ export default function App() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem>
-            <Link>
-                <Avatar isBordered color="primary" src="https://i.pravatar.cc/150?u=a04258a2462d826712d" />
-            </Link>
-        </NavbarItem>
+      <NavbarContent as="div" justify="end">
+        <Dropdown placement="bottom-end">
+          <DropdownTrigger>
+            <Avatar
+              isBordered
+              as="button"
+              className="transition-transform"
+              color="primary"
+              name="Jason Hughes"
+              size="sm"
+              src="https://i.pravatar.cc/150?u=a04258a2462d826712d"
+            />
+          </DropdownTrigger>
+          <DropdownMenu aria-label="Profile Actions" variant="flat">
+            <DropdownItem key="profile" className="h-14 gap-2">
+              <p className="font-semibold">Signed in as</p>
+              <p className="font-semibold">zoey@example.com</p>
+            </DropdownItem>
+            <DropdownItem key="settings">My Profile</DropdownItem>
+            <DropdownItem key="courses">My Courses</DropdownItem>
+            <DropdownItem key="help_and_feedback">Help & Feedback</DropdownItem>
+            <DropdownItem key="logout" color="danger">
+              Log Out
+            </DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (

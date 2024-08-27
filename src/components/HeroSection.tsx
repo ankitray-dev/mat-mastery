@@ -13,7 +13,7 @@ const HeroSection = () => {
       >
       </div>
       <div className="p-4 relative z-10 w-full text-center">
-          <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-300 to-blue-600">
+          <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-600">
                   Unleash Your True Potential
           </h1>
           <p className="mt-4 font-normal text-base md:text-lg text-neutral-200 max-w-lg mx-auto">

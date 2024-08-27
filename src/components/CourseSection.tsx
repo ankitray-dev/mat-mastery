@@ -48,7 +48,7 @@ const CourseSection = () => {
         <div>
             <div className="text-center">
                 <h2 className="text-base text-blue-500 font-bold tracking-wide uppercase">FEATURED COURSES</h2>
-                <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Learn With the Best</p>
+                <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Learn From Differnt Courses</p>
             </div>
         </div>
         <div className="mt-10">
@@ -60,7 +60,7 @@ const CourseSection = () => {
                             <p className="text-tiny font-bold py-2">{item.description}</p>
                             <small className="text-default-500">{item.duration}</small>
                         </CardHeader>
-                        <CardBody className="overflow-visible py-2">
+                        <CardBody className="overflow-visible py-4">
                             <Image
                             alt="Card background"
                             className="object-cover rounded-xl"
