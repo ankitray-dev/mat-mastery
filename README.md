@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mat Mastery
 
-## Getting Started
+![Mat Mastery Logo](https://github.com/ankitray-dev/mat-mastery/blob/main/logo.png)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **
+- **
+- **
+- **
+- **
+  
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run Mat Mastery locally, follow these steps:
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/ankitray-dev/mat-mastery.git
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate to the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    cd mat-mastery
+    ```
 
-## Deploy on Vercel
+3. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your browser and visit `http://localhost:3000` to access Mat Mastery.
+
+## Contributing
+
+Contributions to Mat Mastery are welcome! If you have ideas for new features, improvements, or bug fixes, please feel free to open an issue or submit a pull request. For major changes, please open an issue first to discuss your ideas with the maintainers.
+
+## Contact
+
+If you have any questions or feedback regarding Mat Mastery, please contact the project maintainer:
+
+Ankit Ray - [ankitraywork@gmail.com](mailto:ankitraywork@gmail.com)
